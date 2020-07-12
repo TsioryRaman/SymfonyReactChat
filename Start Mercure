@@ -1,0 +1,5 @@
+Go to the mercure directory and paste this =>
+
+$env:JWT_KEY='aVerySecretKey'; $env:ADDR='localhost:3000';
+$env:CORS_ALLOWED_ORIGINS='https://localhost:8000';  $env:ALLOW_ANONYMOUS='0'; $env:DEMO='0';
+.\mercure.exe
