@@ -1,0 +1,29 @@
+@media screen and (min-width: 673px){
+    body,html{
+        background: white;
+        height: 100vh;
+        overflow: hidden!important;
+    }
+}
+body,html{
+    background: white;
+    height: 100vh;
+    overflow: hidden!important;
+}
+@media screen and (max-width: 800px){
+    body,html{
+        overflow: auto!important;
+    }
+}
+#root{
+    height: 100%;
+}
+.contenu{
+    height: 90%;
+}
+.emoji-categories{
+    background: indigo!important;
+}
+nav .emoji-categories button{
+    color: white!important;
+}

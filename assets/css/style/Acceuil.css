@@ -1,0 +1,9 @@
+.sweet_loading{
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    z-index: 99999;
+    background: rgba(0,0,0,0.5);
+    padding: 12em 0 0 40em;
+}

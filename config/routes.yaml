@@ -1,0 +1,76 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+api_login_check:
+   path: /api/login_check
+   methods: POST
+
+register:
+   path: /register
+   controller: App\Controller\DefaultController::register
+   methods: POST
+
+ListeUtilisateur:
+   path: /api/user
+   controller: App\Controller\SendApiController::ListeUtilisateur
+   methods: POST
+
+Liste_amis:
+   path: /api/listeAmis
+   controller: App\Controller\FriendController::GetAllFriend
+   methods: POST
+
+getUser:
+   path: /api/getUser
+   controller: App\Controller\SendApiController::getUsers
+   methods: POST
+
+sendMessage:
+   path: /api/sendMessage
+   controller: App\Controller\MessageController::sendMessage
+   methods: POST
+
+getMessage:
+   path: /api/getMessage
+   controller: App\Controller\MessageController::getMessageJoueur
+   methods: POST
+
+getNewMessage:
+   path: /Chat
+   controller: App\Controller\MessageController::getNewMessage
+   methods: POST
+
+preventMessage:
+   path: api/preventMessage
+   controller: App\Controller\MessageController::preventMessage
+   methods: POST
+
+searchFriend:
+   path: api/search
+   controller: App\Controller\FriendController::findFriend
+   methods: POST
+
+addFriend:
+   path: api/addFriend
+   controller : App\Controller\FriendController::addFriend
+   methods: POST
+
+preventFriend:
+   path: api/preventFriend
+   controller: App\Controller\FriendController::preventFriendAdd
+   methods: POST
+
+getAdder:
+   path : api/getAdder
+   controller: App\Controller\FriendController::getAdder
+   methods:
+
+UserFriendOptionChecked:
+   path: api/friendOptions
+   controller: App\Controller\FriendController::UserFriendOptionChecked
+   methods: POST
+
+see:
+   path: api/see
+   controller: App\Controller\MessageController::see
+   methods: POST

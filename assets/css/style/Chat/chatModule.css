@@ -1,0 +1,173 @@
+
+.messageBox{
+    color: purple;
+}
+.row100{
+    height:100%;
+    height:100%;
+    margin: 0!important;
+}
+.collection{
+    border: 0!important;
+    height: 100%;
+    overflow-y: scroll!important;
+    overflow-x: hidden!important;
+    margin-top: 0!important;
+
+}
+.collection::-webkit-scrollbar {
+    width: 0%;
+}
+.contenu{
+    height: 540px!important;
+
+}
+.message_field{
+    background: #efefef;
+    height: 80%;
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden!important;
+}
+.message_field::-webkit-scrollbar{
+    width:0%;
+}
+.field_message{
+    padding: 2em 1em 0em 0em;
+;
+
+}
+.input_field{
+    height: 100%;
+
+}
+.list{
+    height: 100%;
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+.histo_msg,.message_container{
+    height: 100%;
+}
+.histo_msg{
+    left: 0!important;
+    right: 0!important;
+    margin: 0!important;
+    padding: 0!important
+}
+.friend_li:hover{
+    cursor: pointer;
+    background: indigo!important;
+    color: white!important;
+}
+.friend_li{
+    transition: 0.8s;
+}
+.content_sender{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 10px;
+}
+.content_receiver{
+    display: flex;
+    align-items: end;
+    width: 100%;
+    padding: 10px;
+    left:0;
+}
+.msg_block{
+    display: inline-block;
+    color: white;
+    max-width: 75%;
+    left:  0;
+    padding: 20px;
+    margin-right: auto;
+    border-radius: 0 30px 30px 30px;
+
+}
+.msg_block_receiver{
+    color: black;
+    max-width: 75%;
+    background: white;
+    left:  0;
+    padding: 20px;
+    border-radius: 30px 30px 0 30px;
+    margin-left: auto;
+}
+.friendChecked{
+    background: purple;
+}
+.ico_receiver{
+    padding-top: 12px;
+    color: #00acc1;
+}
+.emoji_container{
+    position: absolute;
+    height: auto;
+    width: auto;
+    top:199px;
+    right: 100px;
+}
+.display_none{
+    display: none;
+}
+.emoj:hover{
+    cursor: pointer;
+}
+.username{
+    max-width: 75%;
+    padding-left: 0;
+    display:inline!important;
+
+    margin-right: 0!important;
+}
+.headers{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    top: 0;
+    left:0;
+    right: 0;
+    height: 65px;
+}
+.text_area{
+    font-size: 0.9em!important;
+    padding-left: 10px!important;
+    border: 1px solid rgba(0,0,0,0.2)!important;
+    border-radius: 30px!important;
+}
+.header_friend{
+    cursor: default;
+    color: #FFFFFF!important;
+    text-transform: capitalize;
+    padding: 20px;
+    margin-top: 0 !important;
+    display: inline-block;
+}
+.sweet_loading{
+
+}
+.fonctionality{
+    display: flex;
+    flex-direction: row;
+    padding: 1.2em;
+}
+.icon{
+    color: blue;
+    font-size: 2em!important;
+    cursor: pointer;
+    width: 1em;
+    padding-right: 2em;
+}
+p.header_name{
+    padding: 2em 1.5em 5em 1.5em;
+    margin: 0!important;
+    border-bottom: 1px solid #e0e0e0
+}
+.textBold{
+    font-weight: bolder;
+}
+.search{
+    margin-bottom: 0!important;
+}

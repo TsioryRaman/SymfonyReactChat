@@ -1,0 +1,14 @@
+@import "materialize/materialize.min.css";
+@import "style/Chat/chatModule.css";
+@import "style/global.css";
+@import "material-icons.css";
+@import "style/login.css";
+@import "frontawesome/fontawesome.css";
+@import "style/Acceuil.css";
+@import "style/home.css";
+body ,.messageBox{
+    background-color: lightgray;
+}
+body,html{
+    height:100%;
+}
